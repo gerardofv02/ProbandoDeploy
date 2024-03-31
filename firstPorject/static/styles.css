@@ -1,0 +1,51 @@
+#characters{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:5px;
+
+
+}
+.micharacter{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 10%;
+  width: 400px;
+}
+
+.micharacter:hover{
+  box-shadow: 0 0.1rem 0.4rem  rgba(0,0,0,0.3);
+  transition-duration: 0.8s;
+}
+
+img{
+  max-width: 250px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+
+}
+
+
+
+
+
+button{
+  color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+/* cuando es bton y es primario */
+button.primary{
+  background-color: blue;
+  
+}
+/* cuando es bton y es secondario */
+button.secondary{
+  background-color: red;
+}
